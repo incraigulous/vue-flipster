@@ -1,9 +1,7 @@
 import CoverFlow from './CoverFlow'
 import CoverFlowSlide from './CoverFlowSlide'
 
-if (typeof $.flipster == "undefined") { 
-  require('jquery.flipster')
-}
+require('jquery.flipster')
 
 export default CoverFlow
 

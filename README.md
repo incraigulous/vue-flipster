@@ -43,6 +43,7 @@ Requires `jquery`.  😕
 ```
 
 ```js
+  import 'jquery.flipster'
   import {CoverFlow, CoverFlowSlide} from 'vue-flipster'
   
   Vue.component('CoverFlow', CoverFlow)

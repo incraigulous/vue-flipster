@@ -1,9 +1,9 @@
 Vue Flipster
 ------------
 
-Vue wrapper for coverflow library [jquery-flipster](https://github.com/drien/jquery-flipster).
+Vue wrapper for coverflow library, [jquery-flipster](https://github.com/drien/jquery-flipster).
 
-Requires `jquery`. 😕
+Requires `jquery`.  😕
 
 ### Example
 

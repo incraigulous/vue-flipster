@@ -1,7 +1,7 @@
 {
   "name": "vue-flipster",
-  "version": "1.0.0",
-  "description": "Vue wrapper for coverflow library jquery-flipster.",
+  "version": "0.0.2",
+  "description": "Vue wrapper for coverflow library, jquery-flipster.",
   "main": "src/index.js",
   "author": "incraigulous",
   "license": "MIT"

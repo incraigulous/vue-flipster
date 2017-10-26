@@ -1,9 +1,7 @@
 let template = 
-`<template>
-  <div class="cover-flow-slide">
+`<div class="cover-flow-slide">
     <slot />
-  </div>
-</template>`
+  </div>`
 
 export default {
   template

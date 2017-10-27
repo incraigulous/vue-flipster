@@ -54,7 +54,7 @@ Requires `jquery`.  😕
 You should also be sure you require `jquery`, `jquery.flipster`, and `jquery.flipster` css in your project.
 
 ```js
-   # Wherever you bootstrap your application
+   Wherever you bootstrap your application
    require('jquery')
    require('jquery.flipster')
 ```

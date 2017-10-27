@@ -1,0 +1,58 @@
+<head>
+  <title>Vue Flipster Demo</title>
+  <link rel="stylesheet" type="text/css" href="../node_modules/jquery.flipster/dist/jquery.flipster.min.css">
+  <style>
+    body {
+      font-family: sans-serif
+    }
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../node_modules/jquery.flipster/dist/jquery.flipster.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="../dist/vue-flipster.min.js"></script>
+  <script>
+      VueFlipster.install(Vue)
+  </script>
+</head>
+<body>
+  <div id="demo">
+    <div class="container">
+      <h1>Vue Flipster Demo</h1>
+      <cover-flow 
+        :loop="true" 
+        :autoplay="4000" 
+        theme="flat" 
+        :spacing="0" 
+        :buttons="true"
+      >
+        <cover-flow-slide>
+            <img src="http://via.placeholder.com/500x500">
+        </cover-flow-slide>
+        <cover-flow-slide>
+            <img src="http://via.placeholder.com/500x500">
+        </cover-flow-slide>
+        <cover-flow-slide>
+            <img src="http://via.placeholder.com/500x500">
+        </cover-flow-slide>
+        <cover-flow-slide>
+            <img src="http://via.placeholder.com/500x500">
+        </cover-flow-slide>
+        <cover-flow-slide>
+            <img src="http://via.placeholder.com/500x500">
+        </cover-flow-slide>
+      </cover-flow>
+    </div>
+  </div>
+  <script>
+  
+    new Vue({
+      el: '#demo'
+    });
+  </script>
+</body>

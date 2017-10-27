@@ -64,6 +64,12 @@ You should also be sure you require `jquery`, `jquery.flipster`, and `jquery.fli
    @import('path/to/node_modules/jquery.flipster/dist/jquery.flipster.css');
 ```
 
+#### Installing without a build process
+
+See `demo/index.html` for use basic script file based setup.
+
+
+
 ### Options
 
 All jquery-flipster options have matching props with the exception of `item-container` and `item-selector`, which are decided by the plugin.

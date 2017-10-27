@@ -139,7 +139,7 @@ let template =
         buttons: this.buttons,
         buttonPrev: this.buttonPrev,
         buttonNext: this.buttonNext,
-        onItemSwitch: false
+        onItemSwitch: this.onItemSwitch.bind(this)
       })
     },
     methods: {

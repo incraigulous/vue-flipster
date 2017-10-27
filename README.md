@@ -43,13 +43,24 @@ Requires `jquery`.  😕
 ```
 
 ```js
-  import 'jquery.flipster'
   import {CoverFlow, CoverFlowSlide} from 'vue-flipster'
   
   Vue.component('CoverFlow', CoverFlow)
   Vue.component('CoverFlowSlide', CoverFlowSlide)
 ```
 
+You should also be sure you require `jquery`, `jquery.flipster`, and `jquery.flipster` css in your project.
+
+```js
+   # Wherever you bootstrap your application
+   require('jquery')
+   require('jquery.flipster')
+```
+
+```scss
+   In your css build process
+   @import('path/to/node_modules/jquery.flipster/dist/jquery.flipster.css');
+```
 
 ### Options
 

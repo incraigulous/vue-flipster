@@ -5,7 +5,7 @@ Vue wrapper for coverflow library, [jquery-flipster](https://github.com/drien/jq
 
 Requires `jquery`.  😕
 
-#### [See the jquery-flipster demo here](http://brokensquare.com/Code/jquery-flipster/demo/)
+#### [DEMO](https://cdn.rawgit.com/incraigulous/vue-flipster/a7fa8f6d/demo/index.html)
 
 ### Example
 

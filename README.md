@@ -181,3 +181,6 @@ The `style` option prop has been changed to `theme` to avoid conflict with the D
       }
 ```
 
+### Events
+`switch`: The slide has changed.
+

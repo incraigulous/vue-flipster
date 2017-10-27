@@ -144,7 +144,7 @@ let template =
     },
     methods: {
       onItemSwitch (currentItem, previousItem) {
-        this.$emit('itemSwitch', currentItem, previousItem)
+        this.$emit('switch', currentItem, previousItem)
       }
     }
   }
